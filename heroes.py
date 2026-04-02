@@ -16,7 +16,7 @@ for hero_id in range(len(heroes)):
     else:
         work = True
 
-    if height[1] == 'm':
+    if height[1] == 'meters':
         height = float(height[0]) * 100
     else:
         height = float(height[0])
